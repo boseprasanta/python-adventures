@@ -30,5 +30,9 @@ print("i =", i)
 
 # i++ bad
 
+# Null value
+n = None
+print("n =", n)
+
 
 
