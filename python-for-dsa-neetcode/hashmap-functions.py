@@ -27,3 +27,10 @@ print("printing items and values")
 
 for key, value in myMap.items():
     print("key =", key, "value =", value)
+
+
+experimentMap = {
+    str(i)+"key": i for i in range(5)
+}
+
+print(experimentMap) # {'0key': 0, '1key': 1, '2key': 2, '3key': 3, '4key': 4}  
